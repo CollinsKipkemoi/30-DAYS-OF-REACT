@@ -43,3 +43,5 @@ const header3 = (
 //A single or multiple functions that can be imported or exported when needed
 //?What is a package
 //It is a module or a collection of modules
+
+//TODO: COMPONENTS
