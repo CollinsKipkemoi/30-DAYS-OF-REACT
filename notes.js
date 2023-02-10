@@ -32,4 +32,14 @@ const header3 = (
 //METAMASK -false oblige gold print ivory west pill one bean length frame execute
 
 //?What is a single page application in react?
-//A single-page application (SPA) is a web application that updates its content dynamically without reloading the whole page. In React, a single-page application refers to an application built using the React library that follows these principles for a fast and dynamic user experience. 
+//A single-page application (SPA) is a web application that updates its content dynamically without reloading the whole page. In React, a single-page application refers to an application built using the React library that follows these principles for a fast and dynamic user experience.
+
+//!REQUIREMENTS 
+/**
+ * *Install Node - A runtime environment that allows js to run on the server
+ */
+
+//?What is a module
+//A single or multiple functions that can be imported or exported when needed
+//?What is a package
+//It is a module or a collection of modules
