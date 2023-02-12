@@ -45,3 +45,9 @@ const header3 = (
 //It is a module or a collection of modules
 
 //TODO: COMPONENTS
+//Two types
+/**
+ * (i)Functional
+ * (ii)Class
+ */
+//?A component name should start with an upper case and if it is two lettered then we use CamelCase
