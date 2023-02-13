@@ -1,3 +1,7 @@
+/**
+ * TODO: Destructuring props
+ */
+
 //FIXME: REACT JS JOURNEY
 //?Rect is a JS library that was released in 2013 by facebook and is used to create UI
 
@@ -50,4 +54,9 @@ const header3 = (
  * (i)Functional
  * (ii)Class
  */
-//?A component name should start with an upper case and if it is two lettered then we use CamelCase
+//?A component name should start with an upper case and if it is two lettered then we use CamelCase. Components returns JSX
+
+//TODO: PROPS(Properties)
+/**
+ * -Props is used to pass data from one component to another component mostly from parent component to child components. Apart from integers and strings, we can also pass booleans as props
+ */
