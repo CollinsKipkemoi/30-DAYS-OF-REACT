@@ -24,7 +24,7 @@ const header2 = (
         <h1>Hello word</h1>
         <h2>I am a div</h2>
     </div>
-) */} 
+) */}
 
 const header3 = (
     <div>
@@ -60,3 +60,23 @@ const header3 = (
 /**
  * -Props is used to pass data from one component to another component mostly from parent component to child components. Apart from integers and strings, we can also pass booleans as props
  */
+
+//We can modify an array in a JSX as follows
+const stack = (props.user.techStack)
+const stackList = stack.map((item) => <li>{item}</li>)
+
+//A 2D array can be modified as follows 
+
+const prof = props.skills2.map((arr)=><li>{arr[0]} - {arr[1]}</li>)
+
+//TODO: KEYS
+/**
+ * The key prop is used to provide a unique identifier for each item in an array when it is being rendered in a list in React. It is used by React to keep track of the items in the list, and to determine which items have changed, added, or removed in order to efficiently update the UI.
+ */
+
+const prof2 = props.skills2.map((arr)=><li key={arr}>{arr[0]} - {arr[1]}</li>)
+const city = props.obj.map((item) => {
+    return <li key={item.id} >{item.name} - {item.city}</li>
+})
+
+//*Destructuring enhances code readability and makes the code clean
