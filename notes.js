@@ -1,5 +1,6 @@
 /**
  * TODO: Destructuring props
+ * TODO: class components
  */
 
 //FIXME: REACT JS JOURNEY
@@ -80,3 +81,15 @@ const city = props.obj.map((item) => {
 })
 
 //*Destructuring enhances code readability and makes the code clean
+
+//TODO - CLASS COMPONENTS
+/**
+ * When creating class components, we need to import react and component from react 
+ * The class then needs to extend the component 
+ * Finally we create a render method that returns null or some jsx
+ */
+
+//?HOW DO WE ACCESS PROPS IN CLASS COMPONENTS
+/**
+     * To access props in class components, unlike the functional components we don't need to pass props as argument, it is passed automatically. We do {this.props.name}
+ */
