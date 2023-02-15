@@ -93,3 +93,9 @@ const city = props.obj.map((item) => {
 /**
      * To access props in class components, unlike the functional components we don't need to pass props as argument, it is passed automatically. We do {this.props.name}
  */
+
+//FIXME: STATES
+/**
+ * *We access states in class components using this.state.name
+ * *we can then modify the state using this.setState({count: this.state.count-1}) <- Just an example
+ */
